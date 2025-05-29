@@ -8,6 +8,9 @@ Claude Desktop uses a configuration (claude.config.json) file to launch MCP serv
 - `~/.config/claude/claude.config.json` (Linux/macOS)
 
 Add the following content to the file, replacing `<FULL_PATH_TO_REPO>` with the absolute path where you cloned this repository:
+Note: When editing claude.config.json, make sure to use the correct path format for your operating system:
+On Windows, use backslashes (\\)
+On Linux/macOS, use slashes (/)
 
 ```json
 {
